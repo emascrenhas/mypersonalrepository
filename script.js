@@ -15,8 +15,8 @@ function nextPage() {
     document.body.innerHTML = `
         <div class="container">
             <h1>Will you be my Valentine? 💌</h1>
-            <button onclick="sayYes()">Yes 💖</button>
-            <button id="noBtn" onmouseover="moveButton()">No 🙈</button>
+            <button onclick="sayYes()">Yes 🥹💖</button>
+            <button id="noBtn" onmouseover="moveButton()">No😶‍🌫️</button>
         </div>
     `;
 }
@@ -31,10 +31,10 @@ function moveButton() {
 function sayYes() {
     document.body.innerHTML = `
         <div class="container">
-            <h1>YAYYY 🥰</h1>
-            <p>You just made me the happiest person alive 💖</p>
+            <h1>YAYYY.. You said YES 🥳💖</h1>
+            <p>You just made me the happiest person alive🫶💖</p>
             <p>I made something special for you…</p>
-            <button onclick="goToSecret()">Click here for your surprise 💌</button>
+            <button onclick="goToSecret()">Click here for your surprise🫀💌</button>
         </div>
     `;
 }
