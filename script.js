@@ -40,5 +40,5 @@ function sayYes() {
 }
 
 function goToSecret() {
-    window.location.href = "https://YOUR-USERNAME.github.io/secret-site/";
+    window.location.href = "https://emascrenhas.github.io/surprisesite/";
 }
